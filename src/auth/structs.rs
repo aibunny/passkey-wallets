@@ -9,6 +9,7 @@ pub struct AccountRequest {
     pub initial_key_slot: Option<u8>,
 }
 
+
 #[derive(Debug, Serialize)]
 #[serde(crate = "rocket::serde")]
 pub struct DeployResponse {
@@ -16,6 +17,7 @@ pub struct DeployResponse {
     pub status: String,
     pub address: String,
 }
+
 
 
 
